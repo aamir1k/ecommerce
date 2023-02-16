@@ -19,7 +19,6 @@ import ShippingPolicy from "./pages/ShippingPolicy";
 import TermAndConditions from "./pages/TermAndConditions";
 import RefundPolicy from "./pages/RefundPolicy";
 import SingleProduct from "./pages/SingleProduct";
-import Demo from "./pages/Demo";
 import Cart from "./pages/Cart";
 import FeedbackForm from "./pages/FeedbackForm";
 import Checkout from "./pages/Checkout";
@@ -32,7 +31,6 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="about" element={<About />} />
-            <Route path="demo" element={<Demo />} />
 
             <Route path="product" element={<OurStore />} />
             <Route path="product/:id" element={<SingleProduct />} />
