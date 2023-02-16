@@ -6,7 +6,7 @@ import CustomInput from "../components/CustomInput";
 const ResetPassword = () => {
   return (
     <>
-      <Meta title={"Reset Password"} />
+      <Meta title={"Reset-Password"} />
       <BreadCrum title="Reset Password " />
       <div className="login-wrapper py-5  home-wrapper-2">
         <div className="container-xxl">
